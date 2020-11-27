@@ -1,0 +1,13 @@
+﻿@model IEnumerable<string> 
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Urunler</h1>
+<ul>
+    @foreach (string s in Model)
+    {
+    <li> @s </li>
+    }
+</ul>
+<button class=" btn btn-danger">Tıklmama</button>
