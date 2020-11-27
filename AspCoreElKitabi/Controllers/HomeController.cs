@@ -12,5 +12,9 @@ namespace AspCoreElKitabi.Controllers
         {
             return View(new string[] {"Bilgisayar","Monitor","Mouse","TouchPad","Sagopa" });
         }
+        public IActionResult deneme()
+        {
+            return View();
+        }
     }
 }
